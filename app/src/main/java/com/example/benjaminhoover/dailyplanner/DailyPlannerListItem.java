@@ -6,7 +6,7 @@ package com.example.benjaminhoover.dailyplanner;
 public class DailyPlannerListItem {
     private long id;
     private String item;
-    private int quantity;
+    private String date;
 
     public long getId() {
         return id;
@@ -24,16 +24,16 @@ public class DailyPlannerListItem {
         this.item = item;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public String getDate() {
+        return date;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Override
     public String toString() {
-        return item + " - " + String.valueOf(quantity);
+        return item + " - " + String.valueOf(date);
     }
 }

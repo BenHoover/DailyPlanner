@@ -12,12 +12,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DailyPlanner = "dailyplanner";
     public static final String COLUMN_ID = "_id";
     public static final String COLUMN_ITEM = "item";
-    public static final String COLUMN_QUANTITY = "quantity";
+    public static final String COLUMN_DATE = "date";
     private static final String DATABASE_NAME = "dailyplanner.db";
     private static final int DATABASE_VERSION = 1;
 
     private static final String DATABASE_CREATE = "create table " + DailyPlanner + "(" + COLUMN_ID + " integer primary key autoincrement," + COLUMN_ITEM + " text not null,"
-            + COLUMN_QUANTITY + " int not null);";
+            + COLUMN_DATE + " text not null);";
 
 
     public DatabaseHelper(Context context) {

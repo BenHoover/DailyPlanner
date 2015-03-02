@@ -7,6 +7,6 @@
     <string name="button_add">Click to Add</string>
     <string name="instructions">Enter Event and Time Below</string>
     <string name="event_input">Event Name</string>
-    <string name="time_input">Time</string>
+    <string name="time_input">Date</string>
 
 </resources>
